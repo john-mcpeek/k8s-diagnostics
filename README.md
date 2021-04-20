@@ -6,5 +6,11 @@ Utilities in this image:
 - wget
 - openssl
 - tcpdump
-- nc
-- nmap
+- nc (netcat)
+- nmap (fancy netcat)
+- htop (fancy top)
+- nslookup (dnsutils)
+- lsof (list of open files)
+- netstat
+
+ps free top htop nslookup netstat lsof traceroute
