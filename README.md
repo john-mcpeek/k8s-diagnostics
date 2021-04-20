@@ -12,5 +12,3 @@ Utilities in this image:
 - nslookup (dnsutils)
 - lsof (list of open files)
 - netstat (net-tools)
-
-ps free top htop nslookup netstat lsof traceroute
