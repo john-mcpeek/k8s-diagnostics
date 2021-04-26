@@ -13,6 +13,7 @@ RUN apt-get update \
   && apt-get install -y traceroute \
   && apt-get install -y debconf-utils \
   && apt-get install -y dnsutils \
-  && apt-get install -y man-db
+  && apt-get install -y man-db \
+  && apt-get install -y jq
 
 ENTRYPOINT [ "sleep", "infinity" ]
