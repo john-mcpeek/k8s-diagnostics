@@ -15,4 +15,4 @@ RUN apt-get update \
   && apt-get install -y dnsutils \
   && apt-get install -y man-db
 
-ENTRYPOINT [ "sleep", "infinity" ]
+ENTRYPOINT [ "/bin/bash" ]
